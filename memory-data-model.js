@@ -1,3 +1,4 @@
+/* eslint-disable strict */
 'use strict';
 
 const uuid = require('uuid/v4');
@@ -14,7 +15,7 @@ class Model {
   }
 
   create(record,id) {
-    record.id = id;
+    record.id = id;//Math.floor(Math.random() * 100);// uuid();
     this.database.push(record);
     return Promise.resolve(record);
   }

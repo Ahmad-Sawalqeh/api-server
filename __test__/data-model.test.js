@@ -1,3 +1,4 @@
+/* eslint-disable strict */
 'use strict';
 
 const Categories = require('../memory-data-model');
@@ -35,8 +36,6 @@ describe('Categories Model', () => {
   });
 
 });
-
-
 
 describe('Products Model', () => {
 
