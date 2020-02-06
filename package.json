@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "lint": "eslint ./lib/*.js",
+    "lint": "eslint '**/*.js'",
     "test": "jest --coverage --verbose",
     "test-watch": "jest --watchAll --coverage --verbose"
   },
